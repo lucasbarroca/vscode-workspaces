@@ -46,31 +46,27 @@ You can go to VS Code settings tab and start changing settings on `Workspace` ta
 
 ### Example file
 
-```JSON
+```jsonc
 {
     "folders": [
         {
             "path": "."
         },
-        ...
     ],
     "settings": {
         // Global setting
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.tabSize": 4,
-        ...
 
         // File type specific setting
         "[jsonc]": {
             "editor.defaultFormatter": "vscode.json-language-features",
             "editor.tabSize": 4,
-            ...
         },
     },
     "extensions": {
         "recommendations": [
             "donjayamanne.githistory",
-            ...
         ]
     }
 }
